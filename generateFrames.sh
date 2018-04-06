@@ -22,7 +22,9 @@ do
    :
    FILEPREFIX=$(echo $n | sed 's/.mp4//g')
    
-   # Generate frames
+   # create directory for each subdirectories
    mkdir "$FILEPREFIX"
+   
+   # Generate frames
    ffmpeg -i "$FILEPREFIX".mp4 -y -an -q 0 -vf "$SCALE"fps="$FPS" "$FILEPREFIX"/jpg_%06d.jpg
 done
