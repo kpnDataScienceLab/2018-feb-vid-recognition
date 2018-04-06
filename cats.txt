@@ -1,0 +1,10 @@
+0: telco
+1: fashion
+2: fastfood 
+3: fragrance 
+4: cars
+5: alcoholic beverages
+6: finance
+7: supermarket
+8: beverages
+9: vacation
